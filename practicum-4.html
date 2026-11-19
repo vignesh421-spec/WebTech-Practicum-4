@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Text Styles and Layouts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 900;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .box {
+            border: 1px solid #999;
+            border-radius: 8px;
+            padding: 20px;
+            flex: 1;
+        }
+        .side p {
+            font-style: italic;
+        }
+        .main p {
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Text Styles and Layouts</h1>
+    <hr>
+    <h2>Simple Web Layout Using CSS</h2>
+    <p>This is a simple example of a web layout using various CSS text styles</p>
+
+    <div class="container">
+        <div class="side box">
+            <h2>Sidebar</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+
+        <div class="main box">
+            <h2>Main Content</h2>
+            <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+    </div>
+</body>
+</html>
